@@ -1,0 +1,68 @@
+/* Projects.css */
+
+
+.projects-section {
+    background: url("/src/assets/pcode.jpg") no-repeat center center/cover;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  
+  .section-title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  
+  .project-card {
+    background: linear-gradient(135deg, #029e9e, #a7f8ae, #bd8b04); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  
+  .project-title {
+    font-size: 1.2rem;
+    margin: 15px 0;
+  }
+  
+  
+  .btn-primary {
+    background-color: rgb(14, 138, 61);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(19, 90, 156);
+  }
+  

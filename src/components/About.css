@@ -1,0 +1,79 @@
+/* About Section */
+.about-section {
+    background-image: url("/src/assets/robo.jpg"); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(241, 138, 138, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .about-card {
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 124, 1, 0.8);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  
+  .about-card h2 {
+    font-size: 28px; 
+    font-weight: bold; 
+    color: #03000e; 
+    text-transform: uppercase; 
+}
+
+
+.about-card p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    color: #ecf0f1; 
+}
+
+
+  
+  .about-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    
+  }
+  
+  
+  .left-card {
+    text-align: center;
+  }
+  
+  
+  .right-card {
+    text-align: center;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+  

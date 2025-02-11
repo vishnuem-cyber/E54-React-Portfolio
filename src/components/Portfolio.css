@@ -1,0 +1,92 @@
+
+
+/*  body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .hero-section {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .title-text {
+    margin-top: -350px; 
+    font-weight: bold;
+    color: #bd041d;
+    
+  }
+  
+  .subtitle-text {
+    margin-top: -20px; 
+    color: #a704bd;
+    
+  }
+  
+  .hero-btn {
+    position: relative; 
+    top: 0px; 
+    background:linear-gradient(135deg, #f5a0ea, #f5f3a6); 
+    color: #a704bd; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 15px; 
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hero-btn:hover {
+    background:linear-gradient(135deg, #669bea, #f8b82f); 
+    color: rgb(255, 255, 255) ;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(135deg, #75dfff, #acb1fa); 
+    transform: scale(1.05);
+  }
+  
+  .hero-section {
+    background: url('../assets/main.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  
+ 
+  .bg-gradient {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  }
+  
+  
+  .navbar {
+    padding: 1rem 0;
+  }
+  
+ 
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  
+  .project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  }
+  
+  
