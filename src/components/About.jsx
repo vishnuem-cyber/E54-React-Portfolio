@@ -1,5 +1,7 @@
 import React from "react";
 import "../components/About.css"; 
+import profileImage from '../assets/profile.jpg';
+
 
 
 const About = () => {
@@ -8,7 +10,7 @@ const About = () => {
       <div className="about-container">
         
         <div className="about-card left-card">
-          <img src="/src/assets/profile.jpg" alt="Profile" className="about-image" />
+          <img src={profileImage} alt="Profile" className="about-image" />
           <h2>About Me</h2>
           <p>I'm Vishnu Mohandas, a Full Stack Developer passionate about AI and design.</p>
         </div>
