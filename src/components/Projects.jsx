@@ -1,6 +1,6 @@
 // Projects.jsx
 import React from "react";
-import "./projects.css"; 
+import "./Projects.css"; 
 const projects = [
   {
     name: "Fashion Shoppy",
